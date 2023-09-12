@@ -1,0 +1,37 @@
+ /* 
+    This file contains the CSS for the interface. It is imported in the Interface.js file.
+    The interface is the menu that appears on the right side of the screen.
+    It contains the buttons for the different levels.
+*/
+
+.interface /* CSS for the interface */
+{
+    position: fixed; /* The interface is a fixed element, so it will always be on the right side of the screen */
+    height: 100%; /* The height of the interface is 100% of the screen */
+    top: 0; /* The interface is at the top of the screen */
+    left: 88%; /* The interface is at the right side of the screen */
+    width: auto; /* The width of the interface is auto */
+} /* End of CSS for the interface */
+
+
+.level /* CSS for the buttons */
+{
+    border: 1px solid #ffffff; /* The border of the buttons is 1px solid white */
+    color: #0e0d0d; /* The text color of the buttons is black */
+    font-family: Arial, Helvetica, sans-serif; /* The font family of the buttons is Arial, Helvetica, sans-serif */
+    font-size: medium; /* The font size of the buttons is medium */
+    background: #7ace7e; /* The background color of the buttons is #7ace7e */
+    border-radius: 5px; /* The border radius of the buttons is 5px */
+    padding: 5px; /* The padding of the buttons is 5px */
+    margin: 5px; /* The margin of the buttons is 5px */
+    pointer-events: auto; /* The pointer events of the buttons are auto */
+    cursor: pointer; /* The cursor of the buttons is pointer */
+} /* End of CSS for the buttons */
+
+.level:hover /* CSS for the buttons when the user hovers over the buttons */
+{
+    background: #ffffff; /* The background color of the buttons is white */
+    color: #0e0d0d; /* The text color of the buttons is black */
+} /* End of CSS for the buttons when the user hovers over the buttons */
+
+/* End of CSS for the interface */

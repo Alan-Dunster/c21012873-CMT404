@@ -1,0 +1,59 @@
+/* Description: CSS for level labels */
+/* Author: Mattias Johansson */
+
+/* Level labels */
+.level-label
+{
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100px; 
+    border-radius: 15%; 
+    background: #ffffff;
+    border: 5px solid #fa0404;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 100;
+    font-size: 25px;
+    cursor: help; /* Cursor on hover */
+    transform: scale(1, 1); /* Needed for transition */
+    transition: transform 0.3s; /* Transition for hover */
+}
+
+/* Hover effect */
+.level-label:hover
+{
+    transform: scale(1.1, 1.1); /* Scale on hover */
+}
+
+/* Level label text */
+.level-label .text
+{ 
+    position: absolute; 
+    top: 0;
+    left: 200%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    background: #00000077;
+    border: 1px solid #fe0404;
+    color: #ffffff;
+    line-height: 1.3em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    opacity: 0; /* Hidden by default */
+    transform: scale(2, 2); /* Needed for transition */
+    transition: opacity 0.3s; /* Transition for hover */
+    pointer-events: none; /* Disable mouse events */
+}
+
+/* Hover effect */
+.level-label:hover .text /* Show text on hover */
+{
+  opacity: 1; /* Show text */
+}
+
+

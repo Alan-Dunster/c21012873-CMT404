@@ -1,0 +1,16 @@
+/*
+This file contains the CSS for the main page.
+It is imported in the App.js file.
+It contains the CSS variables for the root element to resize the Canvas to fill the viewport.
+*/
+
+/* CSS Variables */
+#root { /* Root element */
+    position: fixed; /* Fixed position to prevent scrolling */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    width: 100%; /* Fill the width of the viewport */
+    height: 100%; /* Fill the height of the viewport */
+    overflow: hidden; /* Prevents scrollbars */
+  } /* End Root element */
+  
