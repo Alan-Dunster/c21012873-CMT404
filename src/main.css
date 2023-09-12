@@ -7,7 +7,7 @@ It contains the CSS variables for the root element to resize the Canvas to fill 
 /* CSS Variables */
 #root { /* Root element */
     position: fixed; /* Fixed position to prevent scrolling */
-    top: 0; /* Position at the top */
+    top: auto; /* Position at the top */
     left: 0; /* Position at the left */
     width: 100%; /* Fill the width of the viewport */
     height: 100%; /* Fill the height of the viewport */

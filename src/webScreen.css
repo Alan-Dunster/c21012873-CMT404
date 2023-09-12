@@ -4,7 +4,7 @@
 {
     width: 1024px; /* The iframe is set to 1024x768 to match the size of the screen */
     height: 768px; /* The iframe is set to 1024x768 to match the size of the screen */
-    border: 5px solid #000000; /* The iframe is given a border to make it easier to see */
+    border: 5px solid #c82828; /* The iframe is given a border to make it easier to see */
 } /* End of .htmlScreen iframe */
 
 /* End of File: src/webScreen.css */

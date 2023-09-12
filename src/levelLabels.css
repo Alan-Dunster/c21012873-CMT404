@@ -8,9 +8,9 @@
     width: auto;
     height: auto;
     min-width: 100px; 
-    border-radius: 15%; 
-    background: #ffffff;
-    border: 5px solid #fa0404;
+    border-radius: 5px; 
+    background: #e1e1e1;
+    border: 5px solid #c82828;
     color: #000000;
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
@@ -38,7 +38,7 @@
     padding: 20px;
     border-radius: 4px;
     background: #00000077;
-    border: 1px solid #fe0404;
+    border: 1px solid #c82828;
     color: #ffffff;
     line-height: 1.3em;
     font-family: Helvetica, Arial, sans-serif;

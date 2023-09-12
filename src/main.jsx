@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render( // Render the App c
         fov: 50, // Field of view (how much of the scene is visible at once) in degrees (50 is a good default)
         near: 0.1, // Near clipping plane (how close to the camera objects can be before they are no longer rendered)
         far: 500, // Far clipping plane (how far from the camera objects can be before they are no longer rendered)
-        position: [ 30, 20, 80 ] // Position the camera in the scene (x, y, z) coordinates
+        position: [ 10, 50, 60 ] // Position the camera in the scene (x, y, z) coordinates
       }} // End of camera properties
       
       gl={{ localClippingEnabled: true }} // Enable local clipping for the scene (local clipping is disabled by default)
