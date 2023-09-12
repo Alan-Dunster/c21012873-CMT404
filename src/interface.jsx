@@ -2,7 +2,7 @@
 
 // Import dependencies from local files:
 import useLevels from './useLevels.jsx' // Import the useLevels hook from the useLevels.jsx file (useLevels is a custom hook that manages the floorLevel and wallLevel states)
-import './Interface.css' // Import the Interface.css file (Interface.css contains the CSS for the Interface component)
+import './interface.css' // Import the Interface.css file (Interface.css contains the CSS for the Interface component)
 
 // Interface component body:
 export default function Interface() // Interface component is a function component that returns a div with a className of "interface" and 7 divs with a className of "level" and an onClick event handler that calls the useLevels hook with the appropriate level function as an argument (the level functions are imported from the useLevels hook)
