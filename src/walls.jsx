@@ -12,7 +12,7 @@ export default function Walls() // Export the Walls component as a default expor
 { // Start of Walls component body
 
 // Define variables for the Walls component (nodes is a child component of the useGLTF hook) (wallLevel is a child component of the useLevels hook)
-    const { nodes } = useGLTF('./Internal-Walls-03.glb') // Load the glTF model from the specified path (nodes is a child component of the useGLTF hook)
+    const { nodes } = useGLTF('./internalWalls.glb') // Load the glTF model from the specified path (nodes is a child component of the useGLTF hook)
     const wallLevel=useLevels((state) => state.wallLevel) // Get the wallLevel state from the useLevels hook (wallLevel is a child component of the useLevels hook)
 
 // Return the Walls component HTML to the DOM as a child component to the App component

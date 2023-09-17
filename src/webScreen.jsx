@@ -27,11 +27,11 @@ export default function WebScreen() // Start of WebScreen component body
                     <Html // Add the Html component to the DOM as a child component to the meshBasicMaterial component
                         
                         transform // Set the transform of the Html component to true
-                        wrapperClass='htmlScreen'
                         occlude={true} // Set the occlude of the Html component to true
                         position={ [-25, 10.8, 3] } // Set the position of the Html component to [40, -9.6, 3]
                         rotation={ [-1.57, 0, 0] } // Set the rotation of the Html component to [0, 1.56, 0]
-                        scale={1} // Set the scale of the Html component to [0.5, 0.5, 0.5]
+                        wrapperClass='htmlScreen'
+                    
                     >{/* Add the following HTML to the DOM as a child component to the Html component */}
                     
                         {/* <iframe src="https://www.yourweather.co.uk/wimages/fotoc607edd96248f1639a31da509ef894d8.png" />{/*Add the following HTML to the DOM as a child component to the iframe component (set the src of the iframe component to https://www.yourweather.co.uk/wimages/fotoc607edd96248f1639a31da509ef894d8.png) */}

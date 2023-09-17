@@ -13,7 +13,7 @@ import useLevels from './useLevels.jsx' // Import the useLevels hook from useLev
 export default function Floors() { // Export the Floors component as a default export (this is a child component of the App component) (this is a sibling of the Walls component)
 
 // Define variables for the Floors component (nodes is a child component of the useGLTF hook) (floorLevel is a child component of the useLevels hook)
-    const { nodes } = useGLTF('./Internal-Floors-02.glb') // Load the glTF model from the specified path (nodes is a child component of the useGLTF hook)
+    const { nodes } = useGLTF('./internalFloors.glb') // Load the glTF model from the specified path (nodes is a child component of the useGLTF hook)
     const floorLevel=useLevels((state) => state.floorLevel) // Get the floorLevel state from the useLevels hook (floorLevel is a child component of the useLevels hook)
 
 // Return the Floors component HTML to the DOM as a child component to the App component

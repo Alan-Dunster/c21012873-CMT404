@@ -38,7 +38,7 @@ export default function PointLights() // Start of PointLights component body
                         color={"blue"}
                         intensity={30}
                         distance={3}
-                        decay={0}
+                        decay={1}
                     />
                 </mesh>
 

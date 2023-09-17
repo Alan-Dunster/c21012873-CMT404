@@ -1,17 +1,12 @@
 /* Description: CSS for location data */
-/* Author: Mattias Johansson */
 
-
-/* Level labels */
 .location-point
 {
     width: 200px;
     height: 60px;
-    border: 0px solid #3e3d3d;
-    cursor: help; /* Cursor on hover */
+    cursor: help; 
 }
 
-/* Level label text */
 .location-point .text
 { 
     position: relative; 
@@ -29,15 +24,13 @@
     font-weight: 100;
     font-size: 12px;
     text-align: center;
-    opacity: 0; /* Hidden by default */
-    transition: opacity 0.3s; /* Transition for hover */
-    pointer-events: none; /* Disable mouse events */
+    opacity: 0; 
+    transition: opacity 0.3s; 
 }
 
-/* Hover effect */
-.location-point:hover .text /* Show text on hover */
+.location-point:hover .text 
 {
-  opacity: 1; /* Show text */
+  opacity: 1;
 }
 
 

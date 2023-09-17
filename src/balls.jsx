@@ -48,7 +48,7 @@ export default function Balls()
                     <meshBasicMaterial color={"red"} />
                 </mesh>
 
-                <mesh position={ [31.7, 4, 12]}>
+                <mesh position={ [31.7, 4, 12]} scale={1.2}>
                     <sphereGeometry />
                     <meshBasicMaterial color={"brown"} />
                 </mesh>

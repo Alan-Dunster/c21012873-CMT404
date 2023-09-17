@@ -24,7 +24,7 @@ export default function ShadedRoom() // ShadedRoom component definition
                 <meshBasicMaterial // ShadedRoom mesh meshBasicMaterial definition and assignment statement (transparent blue material)
                     color={"blue"} // ShadedRoom mesh meshBasicMaterial color property definition and assignment statement (blue)
                     transparent // ShadedRoom mesh meshBasicMaterial transparent property definition and assignment statement (true) (allows for opacity)
-                    opacity={0.2} // ShadedRoom mesh meshBasicMaterial opacity property definition and assignment statement (0.2) (20% opacity)
+                    opacity={0.6} // ShadedRoom mesh meshBasicMaterial opacity property definition and assignment statement (0.2) (20% opacity)
                 />{/* ShadedRoom mesh meshBasicMaterial return statement */}
 
             </mesh> // ShadedRoom mesh return statement

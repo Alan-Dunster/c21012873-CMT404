@@ -42,3 +42,15 @@ export default function Polution()
 } // End of Polution component body
 
 // End of file: src/polution.jsx
+
+<mesh>         
+    <Cloud
+        position={ [0, -14, 1] } 
+        scale={ [1.3, 0.5, 1.5] } 
+        depth={ 0.5 } 
+        width={ 0.5 } 
+        color='#ffff88' 
+        opacity={ 0.3 } 
+        speed={1} 
+    />
+</mesh>

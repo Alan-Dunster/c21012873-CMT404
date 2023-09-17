@@ -53,3 +53,16 @@ export default function LocationData() // LocationData component definition and 
 } // LocationData component definition
 
 // EOF
+
+            <div className="location-point">
+                <div className="text">Occupancy 28 of 45</div>
+                <div className="text">Temp 18.C</div>
+                <div className="text">Humidity 60%</div>
+                <div className="text">CO2 400ppm</div>
+                <div className="text">VOC 0.2ppm</div>
+                <div className="text">PM2.5 10ppm</div>
+                <div className="text">PM10 10ppm</div>
+                <div className="text">Noise 40dB</div>
+                <div className="text">Light 500lux</div>
+                <div className="text">Wifi 100%</div>
+            </div>

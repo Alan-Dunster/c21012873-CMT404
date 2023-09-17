@@ -26,18 +26,18 @@ export default function Particles() // Start of Particles component body
                 <Sparkles // Add the Sparkles component to the DOM as a child component to the mesh component
                 
                     position={ [-15, 8.5, 1] } // Set the position of the Sparkles component to [0, 3, 0]
-                    size={ 60 } // Set the size of the Sparkles component to 'random' (this will set the size of the Sparkles component to a random size)
-                    opacity={1} // Set the opacity of the Sparkles component to 1
-                    count={number} // Set the count of the Sparkles component to the number variable (this will set the number of particles in the scene to 200)
+                    scale={ [15, 3, 10] } // Set the scale of the Sparkles component to [15, 3, 10]
                     speed={3} // Set the speed of the Sparkles component to 3
                     noise={1} // Set the noise of the Sparkles component to 1
+                    count={200} // Set the count of the Sparkles component to the number variable (this will set the number of particles in the scene to 200)
                     color={"orange"} // Set the color of the Sparkles component to orange
-                    scale={ [15, 3, 10] } // Set the scale of the Sparkles component to [15, 3, 10]
+                    size={ 60 } // Set the size of the Sparkles component to 'random' (this will set the size of the Sparkles component to a random size)
+                    opacity={1} // Set the opacity of the Sparkles component to 1
                 
                 />{/* End of Sparkles component */}
             
             </mesh> // End of mesh component
-        
+
         )}{/* End of if statement */}
     
     </> // End of sibling components
